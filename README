@@ -1,0 +1,10 @@
+This is an implementation of a first person stealth based game-base using Gameplay3D from 2013.  An agent with A* path-finding is used to traverse a procedurally generated set of rooms.  Physics picking is also enabled for the basic mechanics of the player.  This was used as the basis for a short game in the style of Frictional Games engines.  It has worked out well overall.  There are a few weak points, however.  The included build of Bullet Physics in the Gameplay3D libraries has some problems with tunneling objects.  Especially cube primitives going through static objects when picking.  Ellipsoid shapes seem to hold up more.  Another is the OpenGL 3.0 requirement for Gameplay3D, which creates compatibility problems for some drivers.
+
+To compile the code it is best to start a new project for your specific platform.
+See the wiki for more info:
+https://github.com/blackberry/GamePlay/wiki
+
+This code is free and licensed under Apache 2.0
+https://www.apache.org/licenses/LICENSE-2.0.html
+
+
